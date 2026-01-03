@@ -7,9 +7,9 @@ const Projects = () => {
     {
       id: 1,
       title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with payment integration, user authentication, and admin dashboard.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      image: 'https://via.placeholder.com/600x400/6366f1/ffffff?text=E-Commerce',
+      description: 'A full-stack e-commerce solution with cart integration, user authentication, and admin dashboard.',
+      technologies: ['React', 'Node.js', 'MongoDB'],
+      image: '/public/assets/glamourHub.png',
       github: 'https://github.com',
       live: 'https://example.com',
       featured: true
@@ -19,7 +19,7 @@ const Projects = () => {
       title: 'Task Management App',
       description: 'A collaborative task management application with real-time updates and team collaboration features.',
       technologies: ['React', 'Firebase', 'Material-UI'],
-      image: 'https://via.placeholder.com/600x400/8b5cf6/ffffff?text=Task+App',
+      image: '/public/assets/taskManagement.png',
       github: 'https://github.com',
       live: 'https://example.com',
       featured: true
@@ -29,7 +29,7 @@ const Projects = () => {
       title: 'Weather Dashboard',
       description: 'A beautiful weather dashboard with location-based forecasts and interactive maps.',
       technologies: ['React', 'OpenWeather API', 'Chart.js'],
-      image: 'https://via.placeholder.com/600x400/ec4899/ffffff?text=Weather',
+      image: '/public/assets/weather.png',
       github: 'https://github.com',
       live: 'https://example.com',
       featured: false
@@ -39,7 +39,7 @@ const Projects = () => {
       title: 'Social Media Dashboard',
       description: 'Analytics dashboard for social media metrics with data visualization and reporting.',
       technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-      image: 'https://via.placeholder.com/600x400/4facfe/ffffff?text=Dashboard',
+      image: '/public/assets/socialMedia.png',
       github: 'https://github.com',
       live: 'https://example.com',
       featured: false
@@ -49,7 +49,7 @@ const Projects = () => {
       title: 'Blog Platform',
       description: 'A modern blog platform with markdown support, categories, and search functionality.',
       technologies: ['React', 'Node.js', 'PostgreSQL'],
-      image: 'https://via.placeholder.com/600x400/f5576c/ffffff?text=Blog',
+      image: '/public/assets/books.png',
       github: 'https://github.com',
       live: 'https://example.com',
       featured: false
@@ -59,7 +59,7 @@ const Projects = () => {
       title: 'Music Player',
       description: 'A sleek music player with playlist management, audio visualization, and cloud sync.',
       technologies: ['React', 'Web Audio API', 'Firebase'],
-      image: 'https://via.placeholder.com/600x400/667eea/ffffff?text=Music',
+      image: '/public/assets/music.png',
       github: 'https://github.com',
       live: 'https://example.com',
       featured: false

@@ -11,9 +11,13 @@ const Skills = () => {
         { name: 'React', icon: <FaReact />, level: 90 },
         { name: 'JavaScript', icon: <FaJs />, level: 85 },
         { name: 'TypeScript', icon: <SiTypescript />, level: 80 },
+        { name: 'Angular', icon: <FaReact />, level: 80 },
+        { name: 'Electron', icon: <FaReact />, level: 90 },
+        { name: 'Ember', icon: <FaReact />, level: 90 },
         { name: 'HTML5', icon: <FaHtml5 />, level: 95 },
         { name: 'CSS3', icon: <FaCss3Alt />, level: 90 },
         { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 85 },
+        { name: 'Ant Design', icon: '', level: 85 },
         { name: 'Next.js', icon: <SiNextdotjs />, level: 75 },
       ]
     },
@@ -30,7 +34,7 @@ const Skills = () => {
       title: 'Tools & Others',
       skills: [
         { name: 'Git', icon: <FaGitAlt />, level: 90 },
-        { name: 'Jira', icon: <FaJira />, level: 70 },
+        { name: 'Jira', icon: <FaJira />, level: 100 },
       ]
     }
   ]
@@ -57,7 +61,7 @@ const Skills = () => {
                         style={{ width: `${skill.level}%` }}
                       ></div>
                     </div>
-                    <span className="skill-level">{skill.level}%</span>
+                    {/* <span className="skill-level">{skill.level}%</span> */}
                   </div>
                 </div>
               ))}

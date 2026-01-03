@@ -54,7 +54,7 @@ const Hero = () => {
         </div>
         <div className="hero-image">
           <div className="hero-avatar">
-            <img src="/SELF_PIC.png" alt="Mouzam Ali" className="avatar-image" />
+            <img src="/public/assets/SELF_PIC.png" alt="Mouzam Ali" className="avatar-image" />
           </div>
         </div>
       </div>

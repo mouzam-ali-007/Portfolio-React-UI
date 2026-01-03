@@ -1,7 +1,5 @@
 .projects {
   background: var(--dark-secondary);
-  border-radius: 20px;
-  margin: 40px 20px;
   padding: 80px 40px;
 }
 
@@ -152,4 +150,3 @@
     height: 200px;
   }
 }
-

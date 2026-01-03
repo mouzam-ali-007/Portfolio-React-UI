@@ -9,13 +9,13 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-text">
-          <p>© {currentYear} Your Name. Made with <FaHeart className="heart-icon" /> using React</p>
+          <p>© {currentYear} Moazzam Ali. Made with <FaHeart className="heart-icon" /> using React</p>
         </div>
         <div className="footer-social">
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/q2i-moazzam-ali/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin />
           </a>
           <a href="mailto:your.email@example.com" aria-label="Email">
